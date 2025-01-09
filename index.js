@@ -1,6 +1,6 @@
 // TODO: Include packages needed for this application
 import fs from "fs"; //Defult installed (core module) (read, write, update, delete, and manage files and directories.)
-import inquirer from "inquirer"; //Yes install. Allows interaction through prompts in command line.
+import inquirer from "inquirer"; //Yes I need to install. Allows interaction through prompts in command line.
 import path from "path"; //Defult installed (core module) create file path
 import generateMarkdown from "./utils/generateMarkdown.js"; // Pulling in JSON File - with format for the README file.
 
@@ -66,13 +66,18 @@ const questions = [
     message:
       "Go the extra mile and write tests for your application. Then provide examples on how to run them here.",
   },
+  {
+    type: "input",
+    name: "questions",
+    message: "Enter Name, \n- email, and \n- link to github repository",
+  },
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  const filePath = path.join(process.cwd(), fileName);
-  fs.writeFileSync(filePath, data);
-  console.log(`File written successfully to ${filePath}`);
+  fs.writeFile(fileName, data, (err) => {
+    err ? console.error(err) : console.log("File created");
+  });
 }
 
 // TODO: Create a function to initialize app

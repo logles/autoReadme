@@ -1,40 +1,45 @@
-# Automated README Generator
+# Title: Auto README Generator
 
-##Description
-What: A interactive promt that will walk you through the key sections of a professional README WHY: to ensure all key content is captured quickly, How: Using inquirer, path, node, and a generatedMarkdown file
+## Table of Contents
+  [Description](#description)
+  [Installation](#installation)
+  [Usage](#usage)
+  [Credits](#credits)
+  [License](#license)
+  [Badge](#badge)
+  [Features](#features)
+  [Contribute](#contribute)
+  [Tests](#tests)
+  [Questions](#questions)
 
-##Table of Contents
-[Description](##description)
-[Installation](##installation)
-[Usage](##usage)
-[Credits](##credits)
-[License](##license)
-[Badge](##badge)
-[Features](##features)
-[Contribute](##contribute)
-[Tests](##tests)
+## Installation
+  1.Clone this repository to your local machine  2. Navigate to the project directory 3. Install the required dependencies using 4. Run node index.js in the integrated terminal 
 
-##Installation
-Download project from github, open index.js in the Integrated Terminal. Run the file and answer the prompts
+## Description
+  This project is a Node.js application that generates professional and customizable README files for developers. By answering a series of prompts, users can quickly create structured and informative README files for their projects.
 
-##Usage
-See README File for examlpe output
+## Usage
+  Run in integrated terminal using prompt node index.js. Screenshot located at: autoreadme/assets
 
-##Credits
-Lydia Ogles, GitHub: https://github.com/logles, also leveraging Xpert learning assistant and https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+## Credits
+  X pert learning assistant, TAs, Markup test tutorials
 
-##License
-This is using the MIT license
-License Link:(https://opensource.org/licenses/MIT)
+  ## License
+     This is using the MIT license 
+  License Link:(https://opensource.org/licenses/MIT)
 
-##Badge
-License Badge:(https://img.shields.io/badge/License-MIT-yellow.svg)
+## Badge
+  License Badge: [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+ 
+## Features
+  Generates README files with consistent formatting.Supports customizable sections such as License, Usage, and Contributions.Automatically adds badges based on the selected license.
 
-##features
-n/a
+## How to contibute
+  Contributions are welcome! If you'd like to contribute. Open a pull request.
+   
+## Tests
+  You can test the functionality by running the following command: node index.js
 
-##How to contibute
-n/a
-
-##Testing
-n/a
+## Questions
+  You can test the functionality by running the following command: node index.js
+      
